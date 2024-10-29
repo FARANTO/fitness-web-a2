@@ -1,0 +1,767 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+        /* Head Section */
+header{
+    width: 100%;
+    background: #111;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav a {
+    color:#fff;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+nav .logo {
+    color: #E6533C;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 800;
+}
+.topbar{
+    display: flex; 
+    padding: 4px;
+    align-items: center;
+    gap: 47px;
+}
+.topbar>button{
+    border-radius: 46px;
+    background: #E6533C;
+    display: flex;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+        /* Banner Section */
+.banner{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}                              
+#banner-header{
+    color: #fff;
+    font-size: 78px;
+    font-style: normal;
+    font-weight: 900;
+}
+#header-shape{
+    font-family: Miama;
+    font-size: 78px;
+    font-style: normal;
+    font-weight: 400;
+}
+.banner-button{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+ .join-club{
+    border-radius: 42px;
+    border: 1px solid white;   
+    width: 224px;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: flex-start;
+    background: #E6533C;
+    color: #fff;
+ }
+ .app{
+    border-radius: 42px;
+    border: 1px solid white;
+    width: 224px;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #111;
+    color: #fff;
+ }
+ .cards {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    grid-column-start:span;
+    gap: 100px;
+    margin-left: 20px;
+}
+
+.card-one {
+    width: 193px;
+    height: 98px;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.10);
+    align-items:center;
+    padding: 10px 10px;
+    font-size: 18px;
+    color: #fff;
+}
+.red-circle{
+    border: 30px solid #E6533C;
+    border-radius: 500px;
+    background-color: #E6533C;
+}
+.card-two {
+    width: 193px;
+    height: 98px;
+    background-color:transparent;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.10);
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+    margin-right: 500px;
+    margin-left: -50px;
+}
+/* Habit Section Styles */
+.habit-section {
+    width: 100%;
+    text-align: center;
+    padding: 60px 20px;
+    background-color:#111;
+}
+
+.habit-headings h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.habit-headings p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.10);
+    translate: translateY(-50%);
+    margin-top: 10px;
+}
+
+.habit-images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.habit-item {
+    width: 220px;
+    text-align: center;
+}
+
+.habit-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.habit-item h3 {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.habit-item p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.10);
+}
+/* Habit section End */
+
+/* Mile Section */
+.mile-section{
+    background-color: #111;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.mile-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background-color: #222;
+    margin: 0 50px;
+}
+.mile-content h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+}
+.mile-content p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.10);
+    margin-bottom: 10px;
+}
+.mile-button{
+    width: 224px;
+    height: 50px;
+    padding: 0 10px;
+    color:#ffffff ;
+    background-color: #E6533C;
+    border-radius: 42px;
+    border: none;
+}
+.mile-img{
+    margin-left: 300px;
+}
+.mile-img>img {
+    object-fit: cover;
+}
+/* Mile Section End */
+
+/* Training Section */
+.training-section {
+    padding: 50px;
+    background-color: #111;
+    color: #fff;
+}
+
+.training-header h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.training-header p {
+    font-size: 16px;
+    color:rgba(255, 255, 255, 0.10);
+    margin-bottom: 30px;
+}
+
+/* Image Grid */
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+}
+.image-grid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures images fill their grid cells */
+}
+
+.grid-item {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Overlay effect */
+.grid-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    mix-blend-mode: multiply;
+}
+  .green{
+    position: relative;
+    left: 12%;
+}
+.green::before{
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+.red::before {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.teal{
+    right: 13%;
+}
+.teal::before {
+    background-color: rgba(0, 128, 128, 0.5);
+}
+.dark{
+    position: relative;
+    left:15%;
+}
+.dark::before {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.greener{
+    left: 5%;
+}
+.greener::before{
+    background-color: rgb(73, 226, 73);
+}
+.blue{
+    right: 15%;
+}
+.blue::before {
+    background-color: rgba(0, 0, 255, 0.5);
+} 
+/* Text for training section */
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+}
+/* Training Section End */
+
+/* BMI Section Start  */
+.bmi-section {
+    padding: 50px;
+    background-color: #111;
+    color: #fff;
+}
+.bmi-head{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.bmi-head h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.bmi-head p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 30px;
+}
+.bmi-content {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+    background-color:rgba(255, 255, 255, 0.10);
+    padding: 10px 0;
+}
+.bmi-table table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #fff;
+}
+.bmi-table th, .bmi-table td {
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+}
+.bmi-table th {
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.bmi-table td{
+    color:rgba(255, 255, 255, 0.7);
+}
+
+.bmi-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form-data {
+    width: 224px;
+    display: flex;
+    gap: 15px;
+}
+input[type="text"], select {
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    background-color:rgba(255, 255, 255, 0.10);
+    color:rgba(255, 255, 255, 0.2);
+    width: 100%;
+}
+.bmi-button {
+    width: 224px;
+    padding: 12px 0;
+    background-color: #E6533C;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 42px;
+}
+
+/* Health Section */
+.eat-for-health {
+    gap: 40px;
+    background-color: #050505;
+    padding: 40px;
+}
+
+.health-head{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 400px;
+}
+.health-head h2{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 900;
+}
+.health-head p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+}
+.health-content{
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: #555;
+}
+.left-content {
+    position: relative;
+    top: 100px;
+    max-width: 400px;
+}
+
+.left-content h2 {
+    font-size: 32px;
+    color:#fff;
+    font-weight: 900;
+}
+
+.left-content p {
+    font-size: 16px;
+    color:rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+}
+.calorie-form input, .calorie-form select, .calculate-btn {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.calculate-btn {
+    background-color: #E6533C;
+    font-weight: bold;
+}
+
+/* Right Content */
+.right-content {
+    border: none;
+    padding: 200px 200px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%),url(../assets/nutrientionist.jpg) lightgray 50% / cover no-repeat;
+}
+.right-content p{
+    color: #fff ;
+}
+.right-content button{
+    width: 224px;
+    background-color: #E6533C;
+    color: #ffffff;
+    border: none;
+    border-radius: 42px;
+    padding: 12px 0;
+}
+/* Team Section Style Start */
+.meet-our-team {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #111;
+}
+
+.meet-our-team h2 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.meet-our-team p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* Team Grid */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.team-member {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Overlay for Text */
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.overlay p {
+    margin: 0;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+/* Team Section Style End */
+
+
+/* Footer Section */
+.foot{
+    background-color:#222;
+    color: #fff;
+    padding: 50px 20px;
+}
+.foot-content{
+    display: flex;
+}
+.footer-left {
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+.foot-logo {
+    font-style: italic;
+    font-size: 70px;
+    font-weight: 900;
+    color: #E6533C;
+}
+
+.footer-para {
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-right {
+    display: flex;
+    gap: 100px;
+}
+
+.footer-list h3 {
+    font-size: 32px;
+    font-weight: 700 ;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.footer-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list ul li {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+}
+.footer-line {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 30px 0;
+}
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+/* Footer End */
+
+/* Responsive */
+
+/* Small device */
+@media(max-width:596px) {
+    /* Top navigation */
+    nav{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .topbar {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .topbar a, button {
+        margin-bottom: 10px;
+        font-size: 16px;
+        width: 50%;
+        text-align: center;
+    }
+    button {
+        padding: 10px;
+    }
+    /* Banner Section */
+    .banner {
+        width: 100%;
+        flex-direction: column;
+        text-align: left;
+        align-items: center;
+        padding: 0px 10px 0px 0px;
+    }
+    .banner-content>p{
+        width: 70%;
+        position: relative;
+        right: 40px;
+        font-size: small;
+    }
+    #banner-header {
+        font-size: 36px;
+    }
+    #header-shape {
+        font-size: 36px;
+    }
+    .banner-button {
+        display: flex;
+        position: relative;
+        right: 30px;
+        flex-direction: row;
+    }
+    .join-club, .app {
+        width: 110px;
+        padding: 12px 0;
+        font-size: 14px;
+    }
+    .banner-image {
+        position:relative;
+        right: 30px;
+        margin: 0 auto;
+    }
+    .cards {
+        position: absolute;
+        top: 20%;
+        flex-direction: column;
+    }
+    .card-one {
+        position: absolute;
+        top: 30px;
+        left: 100px;
+        width: 150px;
+        height: 80px;
+        font-size: 10px;
+    }
+    .card-two {
+        position: absolute;
+        top: 300px;
+        left: 70px;
+        width: 150px;
+        height: 80px;
+        font-size: 14px;
+    }
+    .red-circle {
+        width: 10px;
+        height: 10px;
+        border: 10px solid #E6533C;
+    }
+}
+
+/* Medium Device */
+@media(min-width:596px) and (max-width:992px)
+{     /* Top navigation */
+    nav {
+        width: auto;
+        margin: 0px -50px;
+    }
+    .topbar{
+        gap: 10px;
+    }
+/* Banner Section */
+.banner {
+    flex-direction: row;
+    padding: 30px;
+}
+
+#banner-header {
+    font-size: 48px;
+}
+
+#header-shape {
+    font-size: 48px;
+}
+
+.banner-button {
+    gap: 15px;
+}
+
+.join-club, .app {
+    width: 180px;
+    padding: 14px 30px;
+    font-size: 14px;
+}
+
+.banner-image {
+    left: 30px;
+}
+
+.cards {
+    position: absolute;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card-one {
+    width: 170px;
+    height: 100px;
+    font-size: 16px;
+    position: relative;
+    right: 70px;
+}
+
+.card-two {
+    width: 170px;
+    height: 85px;
+    font-size: 16px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.red-circle {
+    width: 15px;
+    height: 15px;
+    border: 20px solid #E6533C;
+}
+}
