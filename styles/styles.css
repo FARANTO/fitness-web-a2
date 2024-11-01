@@ -647,9 +647,9 @@ input[type="text"], select {
         padding: 0px 10px 0px 0px;
     }
     .banner-content>p{
-        width: 70%;
+        width: 100%;
         position: relative;
-        right: 40px;
+        left: 5px;
         font-size: small;
     }
     #banner-header {
@@ -661,7 +661,7 @@ input[type="text"], select {
     .banner-button {
         display: flex;
         position: relative;
-        right: 30px;
+        left: 5px;
         flex-direction: row;
     }
     .join-club, .app {
@@ -700,11 +700,48 @@ input[type="text"], select {
         height: 10px;
         border: 10px solid #E6533C;
     }
-}
+    /* Mile Section */
+    .mile-section{
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+    .mile-content {
+        flex-direction: column;
+        text-align: left;
+        align-items: center;
+        margin: 0 20px;
+    }
+     .mile-content h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    } 
 
+    .mile-content p {
+        font-size: 10px;
+        color: rgba(255, 255, 255, 0.50);
+    }
+
+    .mile-button {
+        width: 100px;
+        height: 45px;
+    }
+
+    .mile-img {
+        margin:0 0 0 0;
+    }
+
+    .mile-img > img {
+        width: 100%;
+        height: auto;
+        max-width: 366px;
+        object-fit:contain ;
+    }  
+}
 /* Medium Device */
 @media(min-width:596px) and (max-width:992px)
-{     /* Top navigation */
+{   
+    /* Top navigation */
     nav {
         width: auto;
         margin: 0px -50px;
