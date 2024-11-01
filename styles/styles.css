@@ -433,7 +433,7 @@ input[type="text"], select {
 }
 .health-content{
     display: flex;
-    gap: 50px;
+    gap: 20px;
     align-items: flex-start;
     border: 1px solid rgba(255, 255, 255, 0.1);
     background-color: #555;
@@ -452,7 +452,6 @@ input[type="text"], select {
 
 .left-content p {
     font-size: 16px;
-   
     color:rgba(255, 255, 255, 0.5);
     margin-bottom: 20px;
 }
@@ -474,7 +473,7 @@ input[type="text"], select {
 .right-content {
     border: none;
     padding: 200px 200px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%),url(../assets/nutrientionist.jpg) lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%),url(../assets/nutrientionist.jpg) lightgray 40% / cover no-repeat;
 }
 .right-content p{
     color: #fff ;
@@ -746,6 +745,22 @@ input[type="text"], select {
         left: 0; 
         right: 0;
     }
+    /* BMI Section */
+    .bmi-content {
+        flex-direction: column;
+    }
+    
+    .bmi-table, .bmi-form {
+        width: 100%;                  
+    }
+    /* Team Section */
+    .team-grid{
+        grid-template-columns: 1fr;
+    }
+    /* Footer Section */
+    .foot-content{
+        flex-direction: column;
+    }
 }
 /* Medium Device */
 @media(min-width:596px) and (max-width:992px)
@@ -818,7 +833,17 @@ input[type="text"], select {
     border: 20px solid #E6533C;
 }
 /* mile section */
-.mile-img{
+.mile-content{
+    padding: 10%;
     margin: 0 0;
+}
+.mile-img{
+    width: 85%;
+    margin: 0 0;
+}
+/* Health Section */
+.health-content{
+    gap: 100px;
+    flex-direction: column;
 }
 }
