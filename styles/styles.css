@@ -1,6 +1,6 @@
 /* Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.cdnfonts.com/css/miama');      
+@import url('https://fonts.cdnfonts.com/css/miama'); 
 html, body {
     width: 100%;
     overflow-x: hidden;
@@ -201,7 +201,7 @@ nav .logo {
     padding: 30px;
     border: 1px solid rgba(255, 255, 255, 0.10);
     background-color: #222;
-    margin: 0 50px;
+    margin: 0 auto;
 }
 .mile-content h1{
     font-size: 48px;
@@ -703,7 +703,7 @@ input[type="text"], select {
     /* Mile Section */
     .mile-section{
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
         padding: 0;
     }
     .mile-content {
@@ -737,10 +737,22 @@ input[type="text"], select {
         max-width: 366px;
         object-fit:contain ;
     }  
+    /* Training Section */
+    .image-grid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .green, .teal, .dark, .greener, .blue {
+        left: 0; 
+        right: 0;
+    }
 }
 /* Medium Device */
 @media(min-width:596px) and (max-width:992px)
-{   
+{   body{
+    width: 100%;
+    overflow-x: hidden;
+}
     /* Top navigation */
     nav {
         width: auto;
@@ -788,7 +800,7 @@ input[type="text"], select {
     height: 100px;
     font-size: 16px;
     position: relative;
-    right: 70px;
+    right: 100px;
 }
 
 .card-two {
@@ -804,5 +816,9 @@ input[type="text"], select {
     width: 15px;
     height: 15px;
     border: 20px solid #E6533C;
+}
+/* mile section */
+.mile-img{
+    margin: 0 0;
 }
 }
